@@ -1,5 +1,4 @@
-config SHIELD_LILY_LEFT
-    def_bool $(shields_list_contains,lily_left)
-
-config SHIELD_CORNE_RIGHT
-    def_bool $(shields_list_contains,corne_right)
+config SHIELD_LILYCORNE_LEFT
+    def_bool $(shields_list_contains,lilycorne_left)
+config SHIELD_LILYCORNE_RIGHT
+    def_bool $(shields_list_contains,lilycorne_right)
