@@ -1,4 +1,4 @@
-#include <./physical_layouts.dtsi>
+#include <../physical_layouts.dtsi>
 
 / {
     lilycorne_layout: lilycorne_layout {
@@ -6,12 +6,13 @@
         display-name = "6 Column";
     };
 
-  {
-    layouts_lilycorne_position_map: layouts_lilycorne_position_map {
+layouts_lilycorne_position_map: layouts_lilycorne_position_map {
         compatible = "zmk,physical-layout-position-map";
         complete;
    };
+
 };
+
 
 &layouts_lilycorne_position_map {
     lilycorne_posmap: six {
