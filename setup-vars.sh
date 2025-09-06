@@ -1,0 +1,5 @@
+export DIRECTORY="/home/joep/repos/keyboards/"
+export KEYBOARD="lilycorne"
+export SIDE="left"
+export CONTAINER="zmk-container"
+export TEST3="TEST3"
