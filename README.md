@@ -1,11 +1,11 @@
 SETUP:
-- setup-vars.sh
-- setup-container.sh
-- enter-container.sh
+- . setup-vars.sh
+- ./setup-container.sh
+- ./enter-container.sh
+
+You must manually add the below items the the runArgs field in `zmk/.devcontainer/devcontainer.json`:
+- "--name", "zmk-container"
 
 TODO:
-Currently in the process of automating the debug process by extrating everything into scripts.
-- Next, i need to find a way to pass the env variables i exported in setup-vars.sh into the docker container
-- Then, find a way to set the build command to an alias in the container
-
+build still not working on gamePC.
 
